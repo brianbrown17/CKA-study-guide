@@ -1,2 +1,55 @@
 # CKA-study-guide
 Interactive Study Guide for the Linux Academy CKA exam.
+
+## Table of Contents
+- Setting up a Kubeadm Cluster in GCP
+    - Cloud setup
+    - Create the control planne
+    - Create a worker and join the cluster
+    - Accessing your cluster
+- Working with Kubeadm
+    - Resource manifests and Certificates
+    - Upgrade your cluster
+- Basic Cluster Architecture
+    - Control Plane Componenets (manifest locations)
+    - Kubelet 
+    - Logging and troubleshooting
+    - Nodes
+       - Top and QOS
+    - Get Pod and Service CIDR
+- ETCD
+    - Backup
+    - Restore
+- Application Workloads
+    - Containers
+      - images
+      - resource limits
+    - Pod
+      - Static Pods
+      - Exec and default svc
+      - Container logs
+      - Init Containers
+    - Deployment
+      - Scale up and down
+    - Statefulsets
+    - Daemonsets
+    - Scheduling
+      - Pod Topology
+      - Taints/Tolerations/Affinities
+- Storage
+   - Mounting a PV
+   - Mounting a secret
+- Access Control
+   - RBAC
+   - Mutating webhooks
+- Networking
+   - Service
+   - Ingress
+       - Installing an ingress controller/setting up an ingress class
+   - CNI
+   - Network Policies
+- CLI Shortcuts 
+  - SED (get service CIDR)
+  - Crictl
+  - Jsonpath (get filesystem)
+  - Nslookup and Curl (check service endpoint)
