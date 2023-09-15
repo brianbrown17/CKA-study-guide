@@ -2,7 +2,7 @@
 Interactive Study Guide for the Linux Academy CKA exam.
 
 ## Table of Contents
-- Setting up a Kubeadm Cluster in GCP
+- Setting Up a Kubeadm Cluster in GCP
     - Cloud setup
     - Create the control planne
     - Create a worker and join the cluster
@@ -39,6 +39,7 @@ Interactive Study Guide for the Linux Academy CKA exam.
 - Storage
    - Mounting a PV
    - Mounting a secret
+   - ConfigMap
 - Access Control
    - RBAC
    - Mutating webhooks
